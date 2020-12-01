@@ -67,12 +67,13 @@ head标签包含在HTML页面中但不想在页面中显示的内容，包括搜
 
 语法：`<!-- 注释内容 -->`
 
-## 文档结构
+## 语义化文档结构
 
 ```
 - 页眉		<header></header>
 - 导航栏	<nav></nav>
-- 主内容	<main></main>
 - 侧边栏	<aside></aside>
+- 内容区	<main></main>
+- 内容		<article></article>
 - 页脚		<footer></footer>
 ```
